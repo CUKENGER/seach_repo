@@ -1,0 +1,40 @@
+
+
+/* Header.module.scss */
+.container {
+  background-color: #00838F;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.textField {
+  background-color: white;
+  border-radius: 4px;
+  width: 60%;
+
+  .MuiInputLabel-root {
+    color: #00838F;
+  }
+
+  .MuiOutlinedInput-root {
+    fieldset {
+      border-color: #00838F;
+    }
+
+    &:hover fieldset {
+      border-color: #005B5B;
+    }
+
+    &.Mui-focused fieldset {
+      border-color: #005B5B;
+    }
+  }
+}
+
+.button {
+  margin-left: 16px;
+}
